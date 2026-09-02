@@ -80,9 +80,9 @@ with tab2:
 
             # Query service
             svc = (root
-                .databases["AVALANCHE_DB"]
-                .schemas["AVALANCHE_SCHEMA"]
-                .cortex_search_services["AVALANCHE_SEARCH_SERVICE"]
+                .databases["GENAI_PROTOTYPE_DB"]
+                .schemas["GENAI_PROTOTYPE_SCHEMA"]
+                .cortex_search_services["GENAI_PROTOTYPE_SEARCH_SERVICE"]
             )
 
             resp = svc.search(
