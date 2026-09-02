@@ -71,8 +71,6 @@ with tab1:
 with tab2:
     st.title("RAG App")
 
-    session = get_active_session()
-
     # Input box for user prompt
     prompt = st.text_input("Enter your query:", value="Any goggles review?")
 
