@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import json
 import numpy as np
+import openai
 from snowflake.core import Root
 
 ## Use this for Streamlit in Snowflake deployment
